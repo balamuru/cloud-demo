@@ -15,6 +15,10 @@ public class CloudDemoApplication {
 		SpringApplication.run(CloudDemoApplication.class, args);
 	}
 
+	@GetMapping("/")
+	public String alive() {
+		return "It's alive !!!!";
+	}
 
 	@GetMapping("/greet")
 	public String greet() {
