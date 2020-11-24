@@ -1,2 +1,4 @@
 # cloud-demo
-Sample repo to exercise GCP CI/CD functionality
+Sample application that exercises GCP CI/CD functionality namely 
+* GCP Cloud Build 
+* GCP Cloud Run
