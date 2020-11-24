@@ -18,6 +18,6 @@ public class CloudDemoApplication {
 
 	@GetMapping("/greet")
 	public String greet() {
-		return "Hello, the time right now is: " + Instant.now();
+		return "Hello!!! , the time right now is: " + Instant.now();
 	}
 }
